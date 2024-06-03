@@ -18,7 +18,6 @@ app.use((req, res, next) => {
 const port = 3000;
 const MODEL_NAME = "gemini-1.5-flash";
 const API_KEY = "AIzaSyBLNOZGm4LjilEVpvnLCQh0YFKfsz9BdVc";
-const prompt = '다음 영어 문장을 한국어로 번역해 주세요.';
 
 app.post('/generate', async (req, res) => {  
     try {
